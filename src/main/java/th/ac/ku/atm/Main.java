@@ -11,6 +11,7 @@ public class Main {
         String name = atm.validateCustomer(3,3456);
         System.out.println(name + " has " + atm.getBalance());
         atm.withdraw(400);
+        atm.deposit(50000);
         System.out.println(name + " has " + atm.getBalance());
 
         Bank bank = context.getBean(Bank.class);

@@ -13,7 +13,7 @@ public class Bank {
     //composition
     private Map<Integer,Customer> customers;
 //    private DataSourceDB dataSourceDB;
-    private DataSource dataSourceFile;
+//    private DataSourceFile dataSourceFile;
 
     //receive the dataSource like this it is like you can change object
     @Autowired //auto doing dependency injection
